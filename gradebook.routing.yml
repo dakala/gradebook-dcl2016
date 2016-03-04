@@ -25,7 +25,7 @@ entity.grade_letter_set.collection:
     _permission: 'administer grade letters'
 
 entity.grade_letter_set.edit_form:
-  path: '/admin/config/gradebook/grade_letter_set/manage/{grade_letter_set}/edit'
+  path: '/admin/config/gradebook/grade_letter_set/manage/{grade_letter_set}'
   defaults:
     _entity_form: 'grade_letter_set.edit'
     _title: 'Edit grade letter set'
