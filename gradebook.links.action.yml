@@ -4,12 +4,6 @@ grade_letter_set_add_local_action:
   appears_on:
     - entity.grade_letter_set.collection
 
-#grade_letter.letter_add:
-#  route_name: grade_letter.letter_add
-#  title: 'Add grade letter'
-#  appears_on:
-#    - entity.grade_letter_set.list
-
 grade_letter.list_letter_add:
   route_name: grade_letter.letter_add
   title: 'Add grade letter'
