@@ -1,0 +1,26 @@
+<?php
+
+/**
+ * @file
+ * Allows users to manage grades.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function gradebook_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.gradebook':
+      $output = '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('The Gradebook suite of modules allows users to manage <em>grade books</em> for students.') . '</p>';
+      return $output;
+
+    case 'entity.grade_letter_set.collection':
+      return '<p>' . t('List of all grade letter sets.') . '</p>';
+
+    case 'entity.grade_letter_set.list_form':
+      return '<p>' . t('List of grade letters in set.') . '</p>';
+  }
+}

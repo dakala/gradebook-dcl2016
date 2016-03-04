@@ -1,0 +1,7 @@
+name: Gradebook
+type: module
+description: 'Allows users to manage grades for users.'
+package: phpEdu
+version: VERSION
+core: 8.x
+configure: gradebook.admin_index
