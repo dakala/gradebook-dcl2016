@@ -9,10 +9,10 @@ namespace Drupal\gradebook\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
 use Drupal\gradebook\GradeLetterSetInterface;
-use Drupal\gradebook\GradeLetterInterface;
+
 
 /**
- * Provides route responses for taxonomy.module.
+ * Provides route responses for gradebook.module.
  */
 class GradeLetterController extends ControllerBase {
 
